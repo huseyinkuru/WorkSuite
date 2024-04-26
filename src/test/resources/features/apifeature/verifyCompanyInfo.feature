@@ -12,4 +12,4 @@ Feature: Verify Company Information API Testing
     And User sets Content-type as JSON
     When User makes a GET request
     Then The API should respond with status code 200
-    And The response "data.company_phone" should be "12345678912"
+    And The response "data.company_phone" should be "1234567891"
